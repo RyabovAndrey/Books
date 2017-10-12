@@ -17,7 +17,7 @@ public class HibernateUtil {
 		Properties prop= new Properties();
 		prop.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/test?serverTimezone=UTC");
 		prop.setProperty("hibernate.connection.username", "root");
-		prop.setProperty("hibernate.connection.password", "admin");
+		prop.setProperty("hibernate.connection.password", "root");
 		prop.setProperty("dialect", "org.hibernate.dialect.MySQLDialect"); 
 		
 		Configuration configuration = new Configuration()
